@@ -1,0 +1,16 @@
+PODS:
+  - ZJHTestView (0.1.0)
+
+DEPENDENCIES:
+  - ZJHTestView (from `../`)
+
+EXTERNAL SOURCES:
+  ZJHTestView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJHTestView: 188201f2dec056e4140cace3e32b1b78887b858e
+
+PODFILE CHECKSUM: d5839a53a8bc406ebb1db618e613ae6a71f87e51
+
+COCOAPODS: 1.6.1

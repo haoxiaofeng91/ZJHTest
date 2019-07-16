@@ -1,0 +1,6 @@
+framework module ZJHTestView {
+  umbrella header "ZJHTestView-umbrella.h"
+
+  export *
+  module * { export * }
+}
