@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZJHTestView_Tests' do
+  pod 'ZJHTestView', :path => '../'
+  
+  
+end
