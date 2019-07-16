@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2270E44822DE282200ED55D6 /* ZJHTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270E44622DE282200ED55D6 /* ZJHTView.h */; };
-		2270E44922DE282200ED55D6 /* ZJHTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270E44722DE282200ED55D6 /* ZJHTView.m */; };
+		2270E44C22DE31C600ED55D6 /* ZJHTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270E44A22DE31C600ED55D6 /* ZJHTView.m */; };
+		2270E44D22DE31C600ED55D6 /* ZJHTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270E44B22DE31C600ED55D6 /* ZJHTView.h */; };
 		7634EA87958FFD752FECC583BABF2777 /* ZJHTestView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C57A9AB0BFBD7A2DE86DF4B76C61DCF7 /* ZJHTestView-dummy.m */; };
 		ACE1F437B01D4BD0B72EADCC89CB215D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		BD4C516A71AE00004EE5A166522995A9 /* Pods-ZJHTestView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8D50A371B002E873FAE0C2A0E2111F /* Pods-ZJHTestView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0EF0D49838BE408AAD642903C7AD6019 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		174E08B0B1E847593AC609002F312E6A /* Pods-ZJHTestView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJHTestView_Tests-dummy.m"; sourceTree = "<group>"; };
-		2270E44622DE282200ED55D6 /* ZJHTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHTView.h; sourceTree = "<group>"; };
-		2270E44722DE282200ED55D6 /* ZJHTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTView.m; sourceTree = "<group>"; };
+		2270E44A22DE31C600ED55D6 /* ZJHTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJHTView.m; path = ZJHTestView/Classes/ZJHTView.m; sourceTree = "<group>"; };
+		2270E44B22DE31C600ED55D6 /* ZJHTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJHTView.h; path = ZJHTestView/Classes/ZJHTView.h; sourceTree = "<group>"; };
 		286714E3CE0BB606D25B68BF7340489F /* Pods-ZJHTestView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJHTestView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D8D50A371B002E873FAE0C2A0E2111F /* Pods-ZJHTestView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJHTestView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3C9C0318F2E01CC68519192BD81E5D45 /* ZJHTestView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJHTestView-umbrella.h"; sourceTree = "<group>"; };
@@ -125,8 +125,8 @@
 		8DA3B1FE2AA4B272BB71B605E0BBE532 /* ZJHTestView */ = {
 			isa = PBXGroup;
 			children = (
-				2270E44622DE282200ED55D6 /* ZJHTView.h */,
-				2270E44722DE282200ED55D6 /* ZJHTView.m */,
+				2270E44B22DE31C600ED55D6 /* ZJHTView.h */,
+				2270E44A22DE31C600ED55D6 /* ZJHTView.m */,
 				D1742CC2BFA17CC6955CCBD65E350B12 /* Pod */,
 				675E86A7544863366324C0F705A7F043 /* Support Files */,
 			);
@@ -195,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4C516A71AE00004EE5A166522995A9 /* Pods-ZJHTestView_Tests-umbrella.h in Headers */,
-				2270E44822DE282200ED55D6 /* ZJHTView.h in Headers */,
+				2270E44D22DE31C600ED55D6 /* ZJHTView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2270E44922DE282200ED55D6 /* ZJHTView.m in Sources */,
+				2270E44C22DE31C600ED55D6 /* ZJHTView.m in Sources */,
 				E133D3BDD476E290682C4110BFFB34DE /* Pods-ZJHTestView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
